@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:text="Seja bem-vindo(a)!!"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:text="Faça o login:"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="E-mail:"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:id="@+id/txtLOGEmail"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Senha:"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:id="@+id/txtLOGSenha"
+        android:inputType="textPassword"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="50dp"
+        android:id="@+id/btLOGAcessar"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar novo login"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btLOGCadastro"
+        />
+
+
+
+
+
+
+</LinearLayout>

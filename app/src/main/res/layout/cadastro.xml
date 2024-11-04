@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="50dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Seja bem-vindo(a)!!"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Crie seu login:"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Nome:"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:id="@+id/txtCADNome"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="E-mail:"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:id="@+id/txtCADEmail"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:text="Senha:"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:id="@+id/txtCADSenha"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar login"
+        android:id="@+id/btCADGravar"
+        />
+
+
+
+
+
+</LinearLayout>

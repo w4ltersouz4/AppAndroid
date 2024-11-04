@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtMENUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seja bem-vindo: "
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/txtMENUAgendamentos"
+        android:layout_marginTop="200px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Ver os agendamentos"
+        android:textSize="20dp"/>
+
+    <ImageButton
+        android:id="@+id/btMENAgendamentos"
+        android:layout_width="131dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/agendamentos" />
+    <TextView
+        android:id="@+id/txtMENUAgendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Agendar"
+        android:textSize="20dp"/>
+    <ImageButton
+        android:id="@+id/btMENAgendar"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_width="131dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/agendar" />
+
+</LinearLayout>
